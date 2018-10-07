@@ -17,6 +17,7 @@ class main  {
 class html {
     public static function generateTable($records) {
         echo "<table width=''>" ;
+        
         $count = 1;
         echo "<tr>";
         foreach ($records[0] as $tableHeadings => $values) {
