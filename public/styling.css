@@ -1,0 +1,23 @@
+body, html {
+    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 2px solid darkslategray;
+}
+th, td {
+
+    text-align: center;
+    padding: 10px;
+    border: 1px solid darkslategray;
+}
+th{
+    background-color: bisque;
+}
+td{
+    background-color:whitesmoke;
+}
